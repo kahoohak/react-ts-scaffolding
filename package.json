@@ -20,9 +20,19 @@
   },
   "homepage": "https://github.com/kahoohak/react-ts-scaffolding#readme",
   "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.2",
+    "esbuild-loader": "^2.20.0",
     "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.4.1",
     "typescript": "^4.8.4",
@@ -31,8 +41,5 @@
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+  "dependencies": {}
 }
